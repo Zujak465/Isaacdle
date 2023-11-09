@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IsaacDle - Guees the items</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="wybor">Choose your item collection</h1>
+        <div id="choose">
+            <div class="games" id="Rebirth" onclick="choice1()">
+                <h1 class="game">Rebirth</h1>
+              
+            </div>
+            <div class="games" id="Afterbirth" onclick="choice2()">
+                <h1 class="game">Afterbirth</h1>
+               
+            </div>
+            <div class="games" id="Afterbirth+" onclick="choice3()">
+                <h1 class="game">Afterbirth+</h1>
+               
+            </div>
+            <div class="games" id="Repentance" onclick="choice4()">
+                <h1 class="game">Repentance</h1>
+            </div>
+        </div>
+        <div id="next">
+            <h1 onclick="play();randomID()">Next</h1>
+        </div>
+            <div id="actualgame">
+                <div id="ItemName">
+                    <h1 id="nazwa">Item</h1>
+                </div>
+            </div>
+        
+        <script src="data.js" ></script>
+        <script src="script1.js"></script>
+    </body>
+</html>
